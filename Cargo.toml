@@ -19,3 +19,7 @@ uart_16550 = "0.2"
 [dependencies.lazy_static]
 version = "1.4"
 features = ["spin_no_std"]
+
+[[test]]
+name = "should_panic"
+harness = false
